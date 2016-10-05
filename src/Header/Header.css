@@ -1,0 +1,21 @@
+.Header {
+  flex: 0 0 var(--app-bar);
+  background-color: var(--brand900);
+  text-align: center;
+}
+
+.Header-title {
+  margin: 0;
+  padding: 0;
+  color: var(--brand500);
+  font-size: 2.1rem;
+  font-weight: 300;
+  line-height: var(--app-bar);
+}
+
+.Header-title span {
+  display: inline-block;
+  margin: 0 1rem;
+  color: #fff;
+  font-weight: 400;
+}

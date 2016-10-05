@@ -1,0 +1,92 @@
+.Form {
+  width: 100%;
+  max-width: 60rem;
+}
+
+.Form-group {
+  display: flex;
+  width: 100%;
+}
+
+.Form-field {
+  margin-right: 0.1rem;
+  flex: 1;
+  background: #fff;
+}
+
+.Form-field:last-child {
+  margin: 0;
+}
+
+.Form-footer {
+  margin-top: 0.1rem;
+  text-align: center;
+}
+
+.Form-labels {
+  display: flex;
+  padding: 1rem 1rem 0 1rem;
+  justify-content: space-between;
+}
+
+.Form-label {
+  display: inline-block;
+  color: var(--grey300);
+  font-size: 1.1rem;
+}
+
+.Form-label[data-type="error"] {
+  color: var(--ui-error);
+}
+
+.Form-input {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  color: var(--grey900);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.Form-input:focus {
+  outline: none;
+}
+
+.Form-separator {
+  position: relative;
+  display: block;
+  margin: 2rem 0;
+  color: var(--brand900);
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Form-separator::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--brand700);
+  content: "";
+}
+
+.Form-separator span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 0 1rem;
+  background-color: var(--brand500);
+}
+
+.Form-extras {
+  text-align: center;
+}

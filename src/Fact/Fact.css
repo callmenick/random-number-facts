@@ -1,0 +1,31 @@
+.Fact {
+  padding: 2rem;
+  width: 100%;
+  max-width: 60rem;
+  border: solid 0.2rem var(--brand700);
+}
+
+.Fact-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Fact-number {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.Fact-type {
+  color: var(--brand700);
+}
+
+.Fact-text {
+  color: var(--brand900);
+  font-size: 1.8rem;
+}
+
+.Fact-footer {
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.Btn {
+  margin: 0;
+  color: #fff;
+  background: var(--brand700);
+  font-weight: 300;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: background 300ms;
+}
+
+.Btn:hover {
+  background: var(--brand900);
+}
+
+.Btn:focus {
+  outline: none;
+}
+
+.Btn--b {
+  display: block;
+  width: 100%;
+}
+
+.Btn--ib {
+  display: inline-block;
+}
+
+.Btn--sm {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+}
+
+.Btn--md {
+  padding: 1.4rem 2.8rem;
+  font-size: 1.6rem;
+}
+
+.Btn--lg {
+  padding: 1.8rem 3.6rem;
+  font-size: 1.8rem;
+}

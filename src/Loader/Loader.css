@@ -1,0 +1,24 @@
+.Loader {
+  color: #fff;
+  text-align: center;
+}
+
+.Loader-text {
+  position: relative;
+  display: inline-block;
+}
+
+.Loader-text::after {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  display: block;
+  content: ".";
+  animation: loader 1500ms infinite;
+}
+
+@keyframes loader {
+  0% { content: "."; }
+  33.3333% { content: ".."; }
+  66.6666% { content: "..."; }
+}

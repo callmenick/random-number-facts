@@ -1,0 +1,31 @@
+:root {
+  --brand100: #B3E5FC;
+  --brand300: #4FC3F7;
+  --brand500: #03A9F4;
+  --brand700: #0288D1;
+  --brand900: #01579B;
+  --grey100: #263238;
+  --grey300: #E0E0E0;
+  --grey500: #9E9E9E;
+  --grey900: #212121;
+  --ui-error: #f44336;
+  --app-bar: 7.2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: var(--grey900);
+  background-color: var(--brand500);
+  font-family: monospace;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}

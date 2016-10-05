@@ -1,0 +1,8 @@
+.Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  padding: 2rem;
+  flex: 1;
+}
